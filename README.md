@@ -7,7 +7,7 @@ It uses basic layout and styling techniques to make the design responsive for mo
 
 ## Features
 - Designed with pure HTML and CSS
-- Fully responsive (mobile, tablet, desktop)
+- Fully responsive (mobile and laptop)
 - Clean and simple layout
 - Easy to customize
 
