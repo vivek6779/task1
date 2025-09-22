@@ -1,0 +1,271 @@
+.container
+        {
+            background-color: rgb(201, 200, 192);
+        }
+        #nav
+        {
+            display: flex;
+            margin-left: 15%;
+            width: 52%;
+        }
+        #nicola
+        {
+            padding-top: 1%;
+            margin-left: 15%;
+            font-size: 50px;
+            width: 20%;
+        }
+        #fashion
+        {
+            font-size: 23px;
+        }
+        a{
+            text-decoration: none;
+            padding: 5px 25px 0px 25px;
+            display: inline-block;
+            color: black;
+        }
+        a:hover
+        {
+            color: rgb(5, 124, 171);
+        }
+        #nav-content
+        {
+            margin-left: 10%;
+        }
+        #image
+        {
+            margin-top: 5%;
+            margin-left: 15%;
+        }
+        .container1
+        {
+            display: flex;
+            gap: 2%;
+        }
+        #image img{
+            border-radius: 50%;
+            width: 300px;
+        }
+        #sub-container
+        {
+            margin-top: 5%;
+        }
+        #hello
+        {
+            font-size: 70px;
+            font-weight: bold;
+        }
+        #hello1
+        {
+            font-size: 45px;
+        }
+        #cir
+        {
+            margin-top: 2%;
+            display: flex;
+            gap: 30px;
+            width: 340px;
+            padding: 5px 5px 5px 0px;
+        }
+        #c1
+        {
+            text-align: center;
+            height: 70px;
+            width: 90px;
+            padding-top: 6%;
+            border-radius: 50%;
+            color: white;
+            background-color: rgb(233, 10, 10);
+        }
+        #c2
+        {
+            text-align: center;
+            height: 70px;
+            width: 90px;
+            padding-top: 6%;
+            border-radius: 50%;
+            color: white;
+            background-color: rgb(52, 189, 189);
+        }
+        #c3
+        {
+            text-align: center;
+            height: 70px;
+            width: 90px;
+            padding-top: 6%;
+            border-radius: 50%;
+            color: white;
+            background-color: rgb(156, 163, 14);
+        }
+        #para
+        {
+            width: 450px;
+            padding: 3px 0px 3px 0px;
+            font-size: 20px;
+        }
+        .container2
+        {
+            display: flex;
+            justify-content: space-evenly;
+            background-color: rgb(255, 3, 3);
+            margin-top: 20px;
+        }
+        #call,#msg,#add,#company
+        {
+            display: flex;
+        }
+        #call-ic,#msg-icon,#add-icon,#company-ic
+        {
+            margin-top: 10px;
+            height: 40px;
+            width: 40px;
+            color: rgb(249, 250, 249);
+            padding: 5px 10px 5px 0px;
+        }
+        #p1,#p2,#p3   
+        {
+            margin: 0px;
+        }
+        #p1
+        {
+            margin-top: 15px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        #p2,#p3
+        {
+            margin-top: 3px;
+        }
+        
+        #icons
+        {
+            font-size: 40px;
+        }
+        #fb,#twt
+        {
+            font-size: 25px;
+        }
+        
+        #email
+        {
+            width: 204px;
+        }
+        #cont
+        {
+            margin-top: 15px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        #em
+        {
+            margin-top: -25px;
+            font-weight: bold;
+        }
+        a{
+            margin-left: -10px;
+            font-weight: normal;
+            color: rgb(4, 35, 235);
+        }
+        #em a:hover{
+            color: white;
+        }
+        #f
+        {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        #fbtwt
+        {
+            display: flex;
+            color: rgb(253, 255, 255);
+            gap: 5px;
+            margin-top: -10px;
+        }
+        #pr
+        {
+            margin-top: -15px;
+        }
+        @media(max-width:680px)
+        {
+            .container,.container1,.container2
+            {
+                width: 100%;
+                height: 100%;
+                margin: 0px;
+                padding: 0px;
+            }
+            .container1
+            {
+                flex-direction: column;
+            }
+            .container2
+            {
+                flex-direction: column;
+            }
+            #nicola
+            {
+                text-align: center;
+                width: 100%;
+                font-size: 50px;
+                margin: 0px;
+                padding: 0px;
+            }
+            .container #image
+            {
+                margin: 0px;
+                padding-top: 10%;
+                text-align: center;
+            }
+            #nav
+            {
+                flex-direction: column;
+                margin: 0px;
+            }
+            a{
+                margin: 0px;
+                padding: 0px;
+            }
+            #nav-content
+            {
+                width: 100%;
+                display: flex;
+                margin: 0px;
+                padding: 0px;
+                gap: 10px;
+                justify-content: space-evenly;
+            }
+            #nav,#fashion
+            {
+                text-align: center;
+                width: 100%;
+                margin: 0px;
+                padding: 0px;
+                gap: 10px;
+            }
+            
+            #sub-container #hello,#sub-container #hello1
+            {
+                width: 100%;
+                height: 100%;
+                text-align: center;
+            }
+            #sub-container #cir
+            {
+                width: 100%;
+                height: 100%;
+                gap: 0px;
+                justify-content: space-evenly;
+            }
+            #call, #msg, #add
+            {
+                margin: 0px;
+                padding: 0px;
+                width: 100%;
+            }
+            #para
+            {
+                width: 100%;
+                text-align: center;
+            }
+        }
